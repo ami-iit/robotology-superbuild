@@ -8,5 +8,6 @@ include(FindOrBuildPackage)
 ycm_ep_helper(icub-firmware-shared TYPE GIT
                                    STYLE GITHUB
                                    REPOSITORY robotology/icub-firmware-shared.git
+                                   TAG v1.12.1
                                    COMPONENT iCub
                                    FOLDER robotology)
