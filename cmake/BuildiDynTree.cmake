@@ -15,7 +15,7 @@ list(APPEND iDynTree_DEPENDS ICUB)
 ycm_ep_helper(iDynTree TYPE GIT
               STYLE GITHUB
               REPOSITORY robotology/idyntree.git
-              TAG master
+              TAG devel
               COMPONENT dynamics
               FOLDER robotology
               CMAKE_ARGS -DIDYNTREE_USES_MATLAB:BOOL=${ROBOTOLOGY_USES_MATLAB}

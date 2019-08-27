@@ -150,6 +150,7 @@ endif()
 # Teleoperation
 if(ROBOTOLOGY_ENABLE_TELEOPERATION)
   find_or_build_package(walking-teleoperation)
+  find_or_build_package(retargeting-robot-models)
 endif()
 
 # Human Dynamics Estimation

@@ -13,7 +13,7 @@ find_or_build_package(OsqpEigen QUIET)
 ycm_ep_helper(human-dynamics-estimation TYPE GIT
               STYLE GITHUB
               REPOSITORY robotology/human-dynamics-estimation.git
-              TAG master
+              TAG devel
               COMPONENT human_dynamics
               FOLDER robotology
               DEPENDS iDynTree
