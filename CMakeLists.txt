@@ -167,7 +167,9 @@ if(ROBOTOLOGY_ENABLE_ICUB_HEAD)
   find_or_build_package(icub-firmware-shared)
   find_or_build_package(ICUB)
   find_or_build_package(robots-configuration)
-  find_or_build_package(xsensmt-yarp-driver)
+  if((NOT WIN32) AND (NOT APPLE))
+    find_or_build_package(xsensmt-yarp-driver)
+  endif()
 endif()
 
 # R1 Robot

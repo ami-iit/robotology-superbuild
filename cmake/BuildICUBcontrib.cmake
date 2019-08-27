@@ -10,6 +10,7 @@ find_or_build_package(YARP QUIET)
 ycm_ep_helper(ICUBcontrib TYPE GIT
                           STYLE GITHUB
                           REPOSITORY robotology/icub-contrib-common.git
+                          TAG v1.12.1
                           DEPENDS YARP
                           COMPONENT iCub
                           FOLDER robotology)

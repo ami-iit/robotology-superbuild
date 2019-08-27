@@ -19,7 +19,7 @@ endif()
 ycm_ep_helper(YARP TYPE GIT
                    STYLE GITHUB
                    REPOSITORY robotology/yarp.git
-                   TAG master
+                   TAG v3.1.2
                    COMPONENT core
                    FOLDER robotology
                    DEPENDS YCM

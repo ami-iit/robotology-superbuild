@@ -12,7 +12,7 @@ find_or_build_package(ICUB QUIET)
 ycm_ep_helper(icub-tests TYPE GIT
               STYLE GITHUB
               REPOSITORY robotology/icub-tests.git
-              TAG master
+              TAG v1.12.1
               COMPONENT iCub
               FOLDER robotology
               DEPENDS YARP

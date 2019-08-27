@@ -20,6 +20,7 @@ endif()
 ycm_ep_helper(robots-configuration TYPE GIT
                                    STYLE GITHUB
                                    REPOSITORY robotology/robots-configuration.git
+                                   TAG v1.12.1
                                    DEPENDS YARP
                                            ICUBcontrib
                                    COMPONENT iCub
