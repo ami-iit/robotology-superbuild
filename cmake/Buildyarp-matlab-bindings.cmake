@@ -10,7 +10,7 @@ find_or_build_package(YARP QUIET)
 ycm_ep_helper(yarp-matlab-bindings TYPE GIT
               STYLE GITHUB
               REPOSITORY robotology-playground/yarp-matlab-bindings.git
-              TAG master
+              TAG v3.1.2
               COMPONENT core
               FOLDER robotology
               CMAKE_ARGS -DYARP_USES_MATLAB:BOOL=${ROBOTOLOGY_USES_MATLAB}
