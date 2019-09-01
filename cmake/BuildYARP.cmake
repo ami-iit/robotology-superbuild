@@ -15,11 +15,11 @@ if(ROBOTOLOGY_USES_PYTHON)
 else()
   set(YARP_COMPILE_BINDINGS OFF)
 endif()
-
+# check https://github.com/dic-iit/component_andy/issues/302#issuecomment-526921243 for the tag number
 ycm_ep_helper(YARP TYPE GIT
                    STYLE GITHUB
                    REPOSITORY robotology/yarp.git
-                   TAG v3.1.2
+                   TAG e9188f4a499f78e276f1da27829e2af8f4300987
                    COMPONENT core
                    FOLDER robotology
                    DEPENDS YCM
